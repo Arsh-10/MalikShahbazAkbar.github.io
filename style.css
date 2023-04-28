@@ -1,0 +1,74 @@
+#logo{
+    width: 70px;
+    height: 70px;
+}
+nav{
+    border-bottom: 2px solid darkgreen;
+}
+
+#n-head{
+    font-weight: 700;
+    color: darkslategrey;
+    font-family: 'Mate SC', serif;
+}
+
+#ed {
+    background-image: url('pics/blbg2.avif');
+    color: white;
+}
+
+#banner{
+    background-image: url('pics/blbg.jpeg');
+    height: 100vh;
+    background-size: cover;    
+}
+#back1{
+    background-image: linear-gradient(to left ,grey,black,gray);
+}
+
+/* #exp, #exp2 {
+    background-color: antiquewhite;
+} */
+
+
+
+@media (max-width: 992px) {
+    #head1{
+        font-size: 1px;
+    }
+    #img2 {
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #head1{
+        font-size: 30px;
+    }
+    #p1{
+        font-size: 17px;
+    }
+    #img1{
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+    }
+}
+
+#img1{
+    height: 600px;
+}
+
+#bg1{
+    background-image: url('./pics/fixed\ bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* #cbg1{
+    background-image: url('./pics/contact\ bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
